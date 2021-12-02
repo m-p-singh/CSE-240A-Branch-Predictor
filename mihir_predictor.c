@@ -30,11 +30,6 @@ int pcIndexBits;  // Number of bits used for PC index
 int bpType;       // Branch Prediction Type
 int verbose;
 
-//TAGE predictor settings
-int num_histories; // Number of BHTs
-int tage_index_bits;
-int tage_history_bits;
-int bimodal_index_bits;
 
 //------------------------------------//
 //      Predictor Data Structures     //
